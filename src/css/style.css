@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Manrope:wght@700;800&family=Public+Sans:wght@300;400;800&display=swap');
+
+body {
+    height: 100vh;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h2 {
+    font-size: 20px;
+    margin: 5px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu li a {
+    padding: 10px 5px;
+    margin-left: 16px;
+    transition: 0.3s ease-in-out;
+}
+
+.menu li a:hover {
+    background-color: #5BC241;
+    color: #fff;
+}
+
+.menu .btn a {
+    background-color: #5BC241;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: 300;
+}
